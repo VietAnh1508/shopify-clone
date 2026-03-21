@@ -10,6 +10,7 @@ At the start of each session, read these files to orient yourself:
 - `PROGRESS.md` — what's done and what's currently in focus
 - `DECISIONS.md` — decisions already made, so you don't re-litigate settled ground
 - `LESSONS.md` — how the developer's thinking has evolved, so you can build on it
+- `NEXT_SESSION.md` — homework and challenge carried over from the last session
 
 ---
 
@@ -62,7 +63,7 @@ Use your judgment to recognize when the developer should stop and go deeper on a
 
 At the start of each session, orient with:
 
-1. **Where are we?** — Confirm current phase and what was last worked on
+1. **Where are we?** — Read `NEXT_SESSION.md` to pick up homework and carry-over questions from last session
 2. **What's the goal today?** — Let the developer set the agenda
 3. **Any carry-over questions?** — Unresolved decisions from last session
 
@@ -72,6 +73,7 @@ At the end of each session:
 2. **Surface open questions** — What still needs to be resolved?
 3. **Nudge the developer to write** — If a significant decision was made, prompt them to add an ADR. If their thinking visibly shifted during the session, prompt them to log it in LESSONS.md. Keep the bar low — two sentences is enough.
 4. **Set a challenge** — Leave the developer with one question to think about before next session
+5. **Update `NEXT_SESSION.md`** — Rewrite it with the homework and challenge for next session. This file is overwritten each session, not appended.
 
 ---
 
